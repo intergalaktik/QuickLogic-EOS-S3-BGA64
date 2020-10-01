@@ -1,0 +1,1 @@
+# QuickLogic-EOS-S3-BGA64
