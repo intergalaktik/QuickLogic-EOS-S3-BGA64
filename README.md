@@ -66,3 +66,9 @@ IO_27|IO|VCCIOB|--|H5|28||FBIO_27, SPI_MASTER_SSn2, SPI_SENSOR_SSn4, DEBUG_MON_4
 IO_23|IO|VCCIOB|E2|H6|33||FBIO_23, SPI_MASTER_SSn2, SWV, GPIO(7), AP_I2S_WD_CLK_IN, SENSOR_INT_7 
 IO_21|IO|VCCIOB|--|H7|39||FBIO_21, DEBUG_MON_1, IrDA_SIRIN, GPIO(5), UART_RTS, SENSOR_INT_2 
 IO_19|IO|VCCIOB|C1|H8|36||FBIO_19, SPI_SLAVE_MOSI, UART_RTS Note: IO_19 can serve as bootstrap for debugger mode as an M4-F reset release mechanism. 
+
+Symbol library taken from: QuickFeather Development Board
+
+https://github.com/QuickLogic-Corp/quick-feather-dev-board
+
+Revorked to BGA64 by Intergalaktik
