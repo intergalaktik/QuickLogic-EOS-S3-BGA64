@@ -1,0 +1,55 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "QuickBGA64"
+Date "2020-10-02"
+Rev "1.0"
+Comp "Intergalaktik d.o.o."
+Comment1 "QuickLogic BGA64 experimental board"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5F7DEAA3
+P 2850 2750
+F 0 "#PWR0101" H 2850 2500 50  0001 C CNN
+F 1 "GND" V 2855 2622 50  0000 R CNN
+F 2 "" H 2850 2750 50  0001 C CNN
+F 3 "" H 2850 2750 50  0001 C CNN
+	1    2850 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F7DF1FB
+P 2850 2850
+F 0 "#PWR0102" H 2850 2600 50  0001 C CNN
+F 1 "GND" V 2855 2722 50  0000 R CNN
+F 2 "" H 2850 2850 50  0001 C CNN
+F 3 "" H 2850 2850 50  0001 C CNN
+	1    2850 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L QuickLogic:EOS-S3-BGA64 IC1
+U 1 1 5F7EAFD5
+P 3050 2300
+F 0 "IC1" H 3975 3347 50  0000 C CNN
+F 1 "EOS-S3-BGA64" H 3975 3256 50  0000 C CNN
+F 2 "BGA64:BGA-64_3.5x3.5mm_Layout8x8_P0.4mm" H 4000 -1000 50  0001 C CNN
+F 3 "" H 4800 -700 50  0001 C CNN
+F 4 "QuickLogic" H 3975 3165 50  0000 C CNN "Manufacturer"
+F 5 "EOSA1-S-64" H 3975 3074 50  0000 C CNN "MPN"
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2750 2950 2750
+Wire Wire Line
+	2850 2850 2950 2850
+$EndSCHEMATC
